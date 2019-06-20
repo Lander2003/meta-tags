@@ -1,0 +1,397 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Century Gothic';
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+
+h1, h2, h3, h4, p{
+  margin: 0;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  transition: color .1s ease-out;
+}
+
+a:hover{
+color: #ad0616;
+text-decoration: none;
+}
+
+/* Utilities */
+.container-cs {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+.button-custom{
+  border: none;
+  color: black;
+  padding: 20px;
+  font-size: 1.3rem;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color .2s ease-out;
+}
+
+.button-custom:hover{
+background-color: #d7d7d7;
+}
+
+.faded{
+  color: #8c8c8c;
+}
+
+
+
+
+/* Navbar */
+.heading {
+  float: left;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.logo {
+  float: left;
+}
+
+.icon ul li a {
+  float: right;
+}
+
+.icon ul li{
+  display: inline-block;
+  padding: 0 20px;
+  float: right;
+}
+
+
+.icon h3{
+
+}
+
+#navbar {
+  padding: 10px 30px 0;
+  height: 75px;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+/* showcase */
+
+.firstImage{
+  position: absolute;
+  width: 100%;
+}
+
+.secondImage{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.content {
+  position: relative;
+  color: black;
+}
+
+#showcase{
+  height: 970px;
+  position: relative;
+}
+
+
+/* Content mid */
+
+.main-content h1{
+  font-size: 4rem;
+  color: white;
+  padding-top: 100px;
+  display: inline-block;
+}
+
+.main-content{
+  padding-left: 35px;
+}
+
+.second-content{
+  margin-top: 150px;
+  text-align: right;
+}
+
+.second-content h1{
+  color: black;
+  font-size: 3rem;
+  display: inline-block;
+  width: 45%;
+}
+
+.second-content p {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+
+/* Newsletter */
+
+#newsletter{
+  background-color: #f6f6f6;
+  padding: 50px 40px;
+  border-top: solid 1px #e8e8e8;
+}
+
+#newsletter h1{
+  display: inline-block;
+}
+
+#newsletter form{
+  float: right;
+}
+
+
+.newsletter-text{
+  padding: 8px;
+}
+
+
+/* Services */
+
+#menu{
+  background-color: #f6f6f6;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+#menu .dishes-start h1{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+#menu .dishes-start h2{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.dishes-start{
+  margin-bottom: 50px;
+}
+
+#menu h3{
+  margin: 10px 0;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+#menu p {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+#menu img{
+  border-radius: 5px;
+}
+
+.dish{
+  -webkit-transition: color .3s ease-out;
+  -moz-transition: color .3s ease-out;
+  -o-transition: color .3s ease-out;
+  transition: color .3s ease-out;
+}
+
+#menu .dish:hover{
+  color: #b01d24;
+}
+
+/* About us */
+
+#about-us{
+  padding: 40px;
+}
+
+.about-content{
+  padding-top: 100px;
+}
+
+.about-content h1{
+  font-size: 4rem;
+}
+
+.about-content p{
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 991px){
+    .about-content{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+}
+
+/* Reservation */
+#reserve{
+background: url("background-reserve.jpg") 0 -300px;
+width: 100%;
+padding: 50px;
+min-height: 550px;
+}
+
+#reserve h1{
+  font-size: 2.3rem;
+  color: white;
+}
+
+#reserve p{
+  font-weight: lighter;
+  color: white;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.reserve-content {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.reserve-form{
+  padding: 40px 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.reserve-input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.reserve-form h3{
+   color: black;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 991px){
+    .reserve-content{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+}
+
+
+.custom-btn{
+  border: none;
+  color: white;
+  background-color: #77000b;
+  padding: 10px 40px;
+  transition: background-color .3s ease-out;
+}
+
+.custom-btn:hover{
+  background-color: red;
+}
+
+/* Team */
+
+#team{
+  padding: 50px 30px;
+  text-align: center;
+}
+
+#team h1{
+  font-size: 4rem;
+  color: black;
+  margin-bottom: 50px;
+}
+
+#team p{
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.team-icon{
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+.team-box{
+  -webkit-transition: color .1s ease-out;
+  -moz-transition: color .1s ease-out;
+  -o-transition: color .1s ease-out;
+  transition: color .1s ease-out;
+}
+
+.team-box:hover{
+     color: #ad0616;
+}
+
+
+/* Footer */
+
+footer{
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  border-top: solid 1px #e8e8e8;
+}
+
+footer p{
+  font-weight: lighter;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+#showcase {
+  height: auto;
+  padding-bottom: 40px;
+}
+}
+
+@media only screen and (max-width: 1634px){
+  .container-cs{
+    width: 100%;
+  }
+  .firstImage{
+    display: none;
+  }
+  .main-content, .main-content h1, .second-content h1{
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .button-custom{
+    border: none;
+    color: white;
+    background-color: #ad0616;
+    padding: 30px 40px;
+    transition: background-color .3s ease-out;
+  }
+  .button-custom:hover{
+    background-color: red;
+  }
+  #showcase {
+    height: auto;
+    padding-bottom: 40px;
+  }
+.second-content p{
+  text-align: center;
+  width: 100%;
+}
+
+}
